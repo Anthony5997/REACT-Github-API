@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: auto;
 }
 
 .App-logo {
@@ -35,4 +36,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  width: 100%;
+  color: black;
+  padding: 20px;
+  background-color: rgb(233,224,222);
+}
+
+.navbar h1{
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
+
+.navbar li{
+  color: black;
+  padding: 10px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.search input{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.card{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  line-height: 60px;
+
+}
+
+.repos-number{
+  color:black;
 }
